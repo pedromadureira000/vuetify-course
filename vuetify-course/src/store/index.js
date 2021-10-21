@@ -56,7 +56,10 @@ export default new Vuex.Store({
         state.snackbar.show = true
         state.snackbar.text = text
       }, timeout)
-          }
+          },
+    hideSnackbar(state) {
+      state.snackbar.show = false
+    }
   },
   // triggering action methods is called by "despatching"
   actions: {
