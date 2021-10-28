@@ -21,6 +21,6 @@ export default {
 }
 </script>
 
-<styles>
+<style>
 
-</styles>
+</style>
